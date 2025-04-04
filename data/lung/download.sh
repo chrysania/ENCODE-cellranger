@@ -6,8 +6,8 @@ mkdir -p fastq_rna
 cd fastq_rna
 prefetch SRR32072050
 prefetch SRR32072051
-fasterq-dump --split-files --gzip SRR32072050
-fasterq-dump --split-files --gzip SRR32072051
+fastq-dump --split-files --gzip SRR32072050/SRR32072050.sra
+fastq-dump --split-files --gzip SRR32072051/SRR32072051.sra
 cd .. 
 
 # chromatin accessibility (fastq link)
@@ -20,3 +20,5 @@ wget https://www.encodeproject.org/files/ENCFF057YPM/@@download/ENCFF057YPM.fast
 wget https://www.encodeproject.org/files/ENCFF605ZBO/@@download/ENCFF605ZBO.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF990BFG/@@download/ENCFF990BFG.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF113VDA/@@download/ENCFF113VDA.fastq.gz
+
+mkdir -p test
