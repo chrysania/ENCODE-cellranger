@@ -1,0 +1,19 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/bile_duct/fastq_rna,bile_duct,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/bile_duct/fastq_atac,bile_duct,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/fallopian_tube/fastq_rna,fallopian_tube,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/fallopian_tube/fastq_atac,fallopian_tube,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart/fastq_rna,heart,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart/fastq_atac,heart,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/left_colon/fastq_rna,left_colon,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/left_colon/fastq_atac,left_colon,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/liver/fastq_rna,liver,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/liver/fastq_atac,liver,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/lung/fastq_rna,lung,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/lung/fastq_atac,lung,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/muscle/fastq_rna,muscle,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/musclefastq_atac,muscle,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas/fastq_rna,pancreas,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas/fastq_atac,pancreas,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/placenta/fastq_rna,placenta,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/placenta/fastq_atac,placenta,Chromatin Accessibility
