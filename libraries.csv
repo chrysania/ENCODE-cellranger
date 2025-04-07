@@ -12,7 +12,7 @@ fastqs,sample,library_type
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/lung/fastq_rna,lung,Gene Expression
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/lung/fastq_atac,lung,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/muscle/fastq_rna,muscle,Gene Expression
-/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/musclefastq_atac,muscle,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/muscle/fastq_atac,muscle,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas/fastq_rna,pancreas,Gene Expression
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas/fastq_atac,pancreas,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/placenta/fastq_rna,placenta,Gene Expression
