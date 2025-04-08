@@ -8,8 +8,8 @@
 #SBATCH --output=cellranger_bile_duct_%j.log
 
 cellranger-arc count --id=bile_duct \
-            --reference=~/scratch/refdata-cellranger-arc-GRCh38-2020-A-2.0.0 \
-            --libraries=../data/bile_duct/libraries_bile_duct.csv \
+            --reference=/charonfs/scratch/users/astar/gis/limchr/refdata-cellranger-arc-GRCh38-2020-A-2.0.0 \
+            --libraries=/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/bile_duct/libraries_bile_duct.csv \
             --localcores=16 \
             --localmem=128
 
