@@ -52,5 +52,5 @@ rule run_cellranger_arc_separate:
         cd code/{wildcards.tissue}/
         sbatch job_cellranger.sh
         
-        mv {wildcards.tissue}/outs ../data/{wildcards.tissue}/
+        mv {wildcards.tissue}/outs ../../data/{wildcards.tissue}/
         """
