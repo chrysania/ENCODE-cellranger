@@ -24,5 +24,3 @@ wget https://www.encodeproject.org/files/ENCFF969GSH/@@download/ENCFF969GSH.fast
 wget https://www.encodeproject.org/files/ENCFF665CUM/@@download/ENCFF665CUM.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF657GDU/@@download/ENCFF657GDU.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF055GDP/@@download/ENCFF055GDP.fastq.gz
-
-mkdir -p test

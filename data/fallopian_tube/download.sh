@@ -20,5 +20,3 @@ wget https://www.encodeproject.org/files/ENCFF935EJL/@@download/ENCFF935EJL.fast
 wget https://www.encodeproject.org/files/ENCFF764VSQ/@@download/ENCFF764VSQ.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF559TRX/@@download/ENCFF559TRX.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF869QLB/@@download/ENCFF869QLB.fastq.gz
-
-mkdir -p test

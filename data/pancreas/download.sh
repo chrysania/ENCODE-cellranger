@@ -20,5 +20,3 @@ wget https://www.encodeproject.org/files/ENCFF450HQP/@@download/ENCFF450HQP.fast
 wget https://www.encodeproject.org/files/ENCFF575MFA/@@download/ENCFF575MFA.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF911ICS/@@download/ENCFF911ICS.fastq.gz
 wget https://www.encodeproject.org/files/ENCFF178VZE/@@download/ENCFF178VZE.fastq.gz
-
-mkdir -p test
