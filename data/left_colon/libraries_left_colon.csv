@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/left_colon/fastq_rna,left_colon,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/left_colon/fastq_atac,left_colon,Chromatin Accessibility

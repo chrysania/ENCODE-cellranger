@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart/fastq_rna,heart,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart/fastq_atac,heart,Chromatin Accessibility

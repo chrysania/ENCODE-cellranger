@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/muscle/fastq_rna,muscle,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/muscle/fastq_atac,muscle,Chromatin Accessibility

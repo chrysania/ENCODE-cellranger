@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/fallopian_tube/fastq_rna,fallopian_tube,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/fallopian_tube/fastq_atac,fallopian_tube,Chromatin Accessibility
