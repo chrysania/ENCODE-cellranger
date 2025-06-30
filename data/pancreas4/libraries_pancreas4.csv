@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas4/fastq_rna,pancreas4,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas4/fastq_atac,pancreas4,Chromatin Accessibility
