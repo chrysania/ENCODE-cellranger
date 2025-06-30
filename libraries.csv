@@ -1,4 +1,20 @@
 fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal1/fastq_rna,heart_fetal1,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal1/fastq_atac,heart_fetal1,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal3/fastq_rna,heart_fetal3,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal3/fastq_atac,heart_fetal3,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal7/fastq_rna,heart_fetal7,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal7/fastq_atac,heart_fetal7,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal9/fastq_rna,heart_fetal9,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal9/fastq_atac,heart_fetal9,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas1/fastq_rna,pancreas1,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas1/fastq_atac,pancreas1,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas2/fastq_rna,pancreas2,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas2/fastq_atac,pancreas2,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas3/fastq_rna,pancreas3,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas3/fastq_atac,pancreas3,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas4/fastq_rna,pancreas4,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/pancreas4/fastq_atac,pancreas4,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/bile_duct/fastq_rna,bile_duct,Gene Expression
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/bile_duct/fastq_atac,bile_duct,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/fallopian_tube/fastq_rna,fallopian_tube,Gene Expression
