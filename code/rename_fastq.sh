@@ -184,3 +184,159 @@ mv ENCFF996ZIW.fastq.gz placenta_S1_L002_R3_001.fastq.gz
 mv ENCFF411UNG.fastq.gz placenta_S1_L002_R2_001.fastq.gz
 
 cd ../../
+
+
+## heart_fetal1 ##
+# rename fastq rna
+cd heart_fetal1/fastq_rna/
+mv SRR32048549_1.fastq.gz heart_fetal1_S1_L001_R1_001.fastq.gz
+mv SRR32048549_2.fastq.gz heart_fetal1_S1_L001_R2_001.fastq.gz
+mv SRR32048550_1.fastq.gz heart_fetal1_S1_L002_R1_001.fastq.gz
+mv SRR32048550_2.fastq.gz heart_fetal1_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF352YRT.fastq.gz heart_fetal1_S1_L001_R1_001.fastq.gz
+mv ENCFF018QRL.fastq.gz heart_fetal1_S1_L001_R3_001.fastq.gz
+mv ENCFF003FBC.fastq.gz heart_fetal1_S1_L001_R2_001.fastq.gz
+
+mv ENCFF871WLY.fastq.gz heart_fetal1_S1_L002_R1_001.fastq.gz
+mv ENCFF468VAM.fastq.gz heart_fetal1_S1_L002_R3_001.fastq.gz
+mv ENCFF692YAN.fastq.gz heart_fetal1_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## heart_fetal3 ##
+# rename fastq rna
+cd heart_fetal3/fastq_rna/
+mv SRR32048402_1.fastq.gz heart_fetal3_S1_L001_R1_001.fastq.gz
+mv SRR32048402_2.fastq.gz heart_fetal3_S1_L001_R2_001.fastq.gz
+mv SRR32048403_1.fastq.gz heart_fetal3_S1_L002_R1_001.fastq.gz
+mv SRR32048403_2.fastq.gz heart_fetal3_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF779JYT.fastq.gz heart_fetal3_S1_L001_R1_001.fastq.gz
+mv ENCFF296JKN.fastq.gz heart_fetal3_S1_L001_R3_001.fastq.gz
+mv ENCFF184QTJ.fastq.gz heart_fetal3_S1_L001_R2_001.fastq.gz
+
+cd ../../
+
+
+## heart_fetal7 ##
+# rename fastq rna
+cd heart_fetal7/fastq_rna/
+mv SRR32041975_1.fastq.gz heart_fetal7_S1_L001_R1_001.fastq.gz
+mv SRR32041975_2.fastq.gz heart_fetal7_S1_L001_R2_001.fastq.gz
+mv SRR32041976_1.fastq.gz heart_fetal7_S1_L002_R1_001.fastq.gz
+mv SRR32041976_2.fastq.gz heart_fetal7_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF289FLJ.fastq.gz heart_fetal7_S1_L001_R1_001.fastq.gz
+mv ENCFF207IJF.fastq.gz heart_fetal7_S1_L001_R3_001.fastq.gz
+mv ENCFF224DHC.fastq.gz heart_fetal7_S1_L001_R2_001.fastq.gz
+
+mv ENCFF450YRB.fastq.gz heart_fetal7_S1_L002_R1_001.fastq.gz
+mv ENCFF682AFX.fastq.gz heart_fetal7_S1_L002_R3_001.fastq.gz
+mv ENCFF582BNN.fastq.gz heart_fetal7_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## heart_fetal9 ##
+# rename fastq rna
+cd heart_fetal9/fastq_rna/
+mv SRR32042563_1.fastq.gz heart_fetal9_S1_L001_R1_001.fastq.gz
+mv SRR32042563_2.fastq.gz heart_fetal9_S1_L001_R2_001.fastq.gz
+mv SRR32042564_1.fastq.gz heart_fetal9_S1_L002_R1_001.fastq.gz
+mv SRR32042564_2.fastq.gz heart_fetal9_S1_L002_R2_001.fastq.gz
+# rename fastq atac 
+cd ../fastq_atac
+mv ENCFF151EBT.fastq.gz heart_fetal9_S1_L001_R1_001.fastq.gz
+mv ENCFF194WSA.fastq.gz heart_fetal9_S1_L001_R3_001.fastq.gz
+mv ENCFF936QVP.fastq.gz heart_fetal9_S1_L001_R2_001.fastq.gz
+
+mv ENCFF563ADL.fastq.gz heart_fetal9_S1_L002_R1_001.fastq.gz
+mv ENCFF456MTV.fastq.gz heart_fetal9_S1_L002_R3_001.fastq.gz
+mv ENCFF982QAC.fastq.gz heart_fetal9_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## pancreas1 ##
+# rename fastq rna
+cd pancreas/fastq_rna
+mv SRR32046455_1.fastq.gz pancreas1_S1_L001_R1_001.fastq.gz
+mv SRR32046455_2.fastq.gz pancreas1_S1_L001_R2_001.fastq.gz
+mv SRR32046456_1.fastq.gz pancreas1_S1_L002_R1_001.fastq.gz
+mv SRR32046456_2.fastq.gz pancreas1_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF204FDN.fastq.gz pancreas1_S1_L001_R1_001.fastq.gz
+mv ENCFF187JEJ.fastq.gz pancreas1_S1_L001_R3_001.fastq.gz
+mv ENCFF450HQP.fastq.gz pancreas1_S1_L001_R2_001.fastq.gz
+
+mv ENCFF575MFA.fastq.gz pancreas1_S1_L002_R1_001.fastq.gz
+mv ENCFF911ICS.fastq.gz pancreas1_S1_L002_R3_001.fastq.gz
+mv ENCFF178VZE.fastq.gz pancreas1_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## pancreas2 ##
+# rename fastq rna
+cd pancreas2/fastq_rna/
+mv SRR32042478_1.fastq.gz pancreas2_S1_L001_R1_001.fastq.gz
+mv SRR32042478_2.fastq.gz pancreas2_S1_L001_R2_001.fastq.gz
+mv SRR32042479_1.fastq.gz pancreas2_S1_L002_R1_001.fastq.gz
+mv SRR32042479_2.fastq.gz pancreas2_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF285CLW.fastq.gz pancreas2_S1_L001_R1_001.fastq.gz
+mv ENCFF570QGF.fastq.gz pancreas2_S1_L001_R3_001.fastq.gz
+mv ENCFF810FKX.fastq.gz pancreas2_S1_L001_R2_001.fastq.gz
+
+mv ENCFF588DOX.fastq.gz pancreas2_S1_L002_R1_001.fastq.gz
+mv ENCFF605SNO.fastq.gz pancreas2_S1_L002_R3_001.fastq.gz
+mv ENCFF085OSX.fastq.gz pancreas2_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## pancreas3 ##
+# rename fastq rna
+cd pancreas3/fastq_rna/
+mv SRR32042079_1.fastq.gz pancreas3_S1_L001_R1_001.fastq.gz
+mv SRR32042079_2.fastq.gz pancreas3_S1_L001_R2_001.fastq.gz
+mv SRR32042080_1.fastq.gz pancreas3_S1_L002_R1_001.fastq.gz
+mv SRR32042080_2.fastq.gz pancreas3_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF009REU.fastq.gz pancreas3_S1_L001_R1_001.fastq.gz
+mv ENCFF218KOU.fastq.gz pancreas3_S1_L001_R3_001.fastq.gz
+mv ENCFF184EQB.fastq.gz pancreas3_S1_L001_R2_001.fastq.gz
+
+mv ENCFF790WZX.fastq.gz pancreas3_S1_L002_R1_001.fastq.gz
+mv ENCFF203CYV.fastq.gz pancreas3_S1_L002_R3_001.fastq.gz
+mv ENCFF301RQY.fastq.gz pancreas3_S1_L002_R2_001.fastq.gz
+
+cd ../../
+
+
+## pancreas4 ##
+# rename fastq rna
+cd pancreas4/fastq_rna/
+mv SRR32046529_1.fastq.gz pancreas4_S1_L001_R1_001.fastq.gz
+mv SRR32046529_2.fastq.gz pancreas4_S1_L001_R2_001.fastq.gz
+mv SRR32046530_1.fastq.gz pancreas4_S1_L002_R1_001.fastq.gz
+mv SRR32046530_2.fastq.gz pancreas4_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv ENCFF367HBQ.fastq.gz pancreas4_S1_L001_R1_001.fastq.gz
+mv ENCFF640CVN.fastq.gz pancreas4_S1_L001_R3_001.fastq.gz
+mv ENCFF685HTY.fastq.gz pancreas4_S1_L001_R2_001.fastq.gz
+
+mv ENCFF989SKJ.fastq.gz pancreas4_S1_L002_R1_001.fastq.gz
+mv ENCFF857TCW.fastq.gz pancreas4_S1_L002_R3_001.fastq.gz
+mv ENCFF911NUY.fastq.gz pancreas4_S1_L002_R2_001.fastq.gz
+
+cd ../../
