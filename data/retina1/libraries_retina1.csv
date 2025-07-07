@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina1/fastq_rna,retina1,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina1/fastq_atac,retina1,Chromatin Accessibility

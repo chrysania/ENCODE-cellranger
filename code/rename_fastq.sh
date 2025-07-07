@@ -340,3 +340,71 @@ mv ENCFF857TCW.fastq.gz pancreas4_S1_L002_R3_001.fastq.gz
 mv ENCFF911NUY.fastq.gz pancreas4_S1_L002_R2_001.fastq.gz
 
 cd ../../
+
+
+## retina1 ##
+# rename fastq rna
+cd retina1/fastq_rna
+mv SRR17909495_1.fastq.gz retina1_S1_L001_I2_001.fastq.gz # 10bp index i5 (optional)
+mv SRR17909495_2.fastq.gz retina1_S1_L001_I1_001.fastq.gz # 10bp index i7 (optional)
+mv SRR17909495_3.fastq.gz retina1_S1_L001_R1_001.fastq.gz # 150bp read 1
+mv SRR17909495_4.fastq.gz retina1_S1_L001_R2_001.fastq.gz # 150bp read 2
+# rename fastq atac
+cd ../fastq_atac
+mv SRR17909503_1.fastq.gz retina1_S1_L001_I1_001.fastq.gz # 8bp index i7
+mv SRR17909503_2.fastq.gz retina1_S1_L001_R1_001.fastq.gz # 150bp read 1
+mv SRR17909503_3.fastq.gz retina1_S1_L001_I2_001.fastq.gz # 24bp 10x barcode
+mv SRR17909503_4.fastq.gz retina1_S1_L001_R2_001.fastq.gz # 150bp read 2
+
+cd ../../
+
+
+## retina2 ##
+# rename fastq rna
+cd retina2/fastq_rna
+mv SRR17909494_1.fastq.gz retina2_S1_L001_I2_001.fastq.gz
+mv SRR17909494_2.fastq.gz retina2_S1_L001_I1_001.fastq.gz
+mv SRR17909494_3.fastq.gz retina2_S1_L001_R1_001.fastq.gz
+mv SRR17909494_4.fastq.gz retina2_S1_L001_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR17909502_1.fastq.gz retina2_S1_L001_I1_001.fastq.gz
+mv SRR17909502_2.fastq.gz retina2_S1_L001_R1_001.fastq.gz
+mv SRR17909502_3.fastq.gz retina2_S1_L001_I2_001.fastq.gz
+mv SRR17909502_4.fastq.gz retina2_S1_L001_R2_001.fastq.gz
+
+cd ../../
+
+
+## retina3 ##
+# rename fastq rna
+cd retina3/fastq_rna
+mv SRR17909501_1.fastq.gz retina3_S1_L001_I2_001.fastq.gz
+mv SRR17909501_2.fastq.gz retina3_S1_L001_I1_001.fastq.gz
+mv SRR17909501_3.fastq.gz retina3_S1_L001_R1_001.fastq.gz
+mv SRR17909501_4.fastq.gz retina3_S1_L001_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR17909509_1.fastq.gz retina3_S1_L001_I1_001.fastq.gz
+mv SRR17909509_2.fastq.gz retina3_S1_L001_R1_001.fastq.gz
+mv SRR17909509_3.fastq.gz retina3_S1_L001_I2_001.fastq.gz
+mv SRR17909509_4.fastq.gz retina3_S1_L001_R2_001.fastq.gz
+
+cd ../../
+
+
+## retina4 ##
+# rename fastq rna
+cd retina4/fastq_rna
+mv SRR17909500_1.fastq.gz retina4_S1_L001_I2_001.fastq.gz
+mv SRR17909500_2.fastq.gz retina4_S1_L001_I1_001.fastq.gz
+mv SRR17909500_3.fastq.gz retina4_S1_L001_R1_001.fastq.gz
+mv SRR17909500_4.fastq.gz retina4_S1_L001_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR17909508_1.fastq.gz retina4_S1_L001_I1_001.fastq.gz
+mv SRR17909508_2.fastq.gz retina4_S1_L001_R1_001.fastq.gz
+mv SRR17909508_3.fastq.gz retina4_S1_L001_I2_001.fastq.gz
+mv SRR17909508_4.fastq.gz retina4_S1_L001_R2_001.fastq.gz
+
+cd ../../

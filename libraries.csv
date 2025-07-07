@@ -1,4 +1,12 @@
 fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina1/fastq_rna,retina1,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina1/fastq_atac,retina1,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina2/fastq_rna,retina2,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina2/fastq_atac,retina2,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina3/fastq_rna,retina3,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina3/fastq_atac,retina3,Chromatin Accessibility
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina4/fastq_rna,retina4,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/retina4/fastq_atac,retina4,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal1/fastq_rna,heart_fetal1,Gene Expression
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal1/fastq_atac,heart_fetal1,Chromatin Accessibility
 /charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/heart_fetal3/fastq_rna,heart_fetal3,Gene Expression
