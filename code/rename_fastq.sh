@@ -1,6 +1,104 @@
 # rename fastq files to cellranger-arc preffered format
 cd ../data
 
+## heart_LAA_CF69 ##
+# rename fastq rna
+cd heart_LAA_CF69/fastq_rna/
+mv SRR25421404_1.fastq.gz heart_LAA_CF69_S1_L001_R1_001.fastq.gz
+mv SRR25421404_2.fastq.gz heart_LAA_CF69_S1_L001_R2_001.fastq.gz
+mv SRR25421405_1.fastq.gz heart_LAA_CF69_S1_L002_R1_001.fastq.gz
+mv SRR25421405_2.fastq.gz heart_LAA_CF69_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421391_1.fastq.gz heart_LAA_CF69_S1_L001_R1_001.fastq.gz
+mv SRR25421391_2.fastq.gz heart_LAA_CF69_S1_L001_R2_001.fastq.gz
+mv SRR25421391_3.fastq.gz heart_LAA_CF69_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF77 ##
+# rename fastq rna
+cd heart_LAA_CF77/fastq_rna/
+mv SRR25421402_1.fastq.gz heart_LAA_CF77_S1_L001_R1_001.fastq.gz
+mv SRR25421402_2.fastq.gz heart_LAA_CF77_S1_L001_R2_001.fastq.gz
+mv SRR25421403_1.fastq.gz heart_LAA_CF77_S1_L002_R1_001.fastq.gz
+mv SRR25421403_2.fastq.gz heart_LAA_CF77_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421390_1.fastq.gz heart_LAA_CF77_S1_L001_R1_001.fastq.gz
+mv SRR25421390_2.fastq.gz heart_LAA_CF77_S1_L001_R2_001.fastq.gz
+mv SRR25421390_3.fastq.gz heart_LAA_CF77_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF89 ##
+# rename fastq rna
+cd heart_LAA_CF89/fastq_rna/
+mv SRR25421400_1.fastq.gz heart_LAA_CF89_S1_L001_R1_001.fastq.gz
+mv SRR25421400_2.fastq.gz heart_LAA_CF89_S1_L001_R2_001.fastq.gz
+mv SRR25421401_1.fastq.gz heart_LAA_CF89_S1_L002_R1_001.fastq.gz
+mv SRR25421401_2.fastq.gz heart_LAA_CF89_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421389_1.fastq.gz heart_LAA_CF89_S1_L001_R1_001.fastq.gz
+mv SRR25421389_2.fastq.gz heart_LAA_CF89_S1_L001_R2_001.fastq.gz
+mv SRR25421389_3.fastq.gz heart_LAA_CF89_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF91 ##
+# rename fastq rna
+cd heart_LAA_CF91/fastq_rna/
+mv SRR25421398_1.fastq.gz heart_LAA_CF91_S1_L001_R1_001.fastq.gz
+mv SRR25421398_2.fastq.gz heart_LAA_CF91_S1_L001_R2_001.fastq.gz
+mv SRR25421399_1.fastq.gz heart_LAA_CF91_S1_L002_R1_001.fastq.gz
+mv SRR25421399_2.fastq.gz heart_LAA_CF91_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421388_1.fastq.gz heart_LAA_CF91_S1_L001_R1_001.fastq.gz
+mv SRR25421388_2.fastq.gz heart_LAA_CF91_S1_L001_R2_001.fastq.gz
+mv SRR25421388_3.fastq.gz heart_LAA_CF91_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF93 ##
+# rename fastq rna
+cd heart_LAA_CF93/fastq_rna/
+mv SRR25421396_1.fastq.gz heart_LAA_CF93_S1_L001_R1_001.fastq.gz
+mv SRR25421396_2.fastq.gz heart_LAA_CF93_S1_L001_R2_001.fastq.gz
+mv SRR25421397_1.fastq.gz heart_LAA_CF93_S1_L002_R1_001.fastq.gz
+mv SRR25421397_2.fastq.gz heart_LAA_CF93_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421387_1.fastq.gz heart_LAA_CF93_S1_L001_R1_001.fastq.gz
+mv SRR25421387_2.fastq.gz heart_LAA_CF93_S1_L001_R2_001.fastq.gz
+mv SRR25421387_3.fastq.gz heart_LAA_CF93_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF97 ##
+# rename fastq rna
+cd heart_LAA_CF97/fastq_rna/
+mv SRR25421394_1.fastq.gz heart_LAA_CF97_S1_L001_R1_001.fastq.gz
+mv SRR25421394_2.fastq.gz heart_LAA_CF97_S1_L001_R2_001.fastq.gz
+mv SRR25421395_1.fastq.gz heart_LAA_CF97_S1_L002_R1_001.fastq.gz
+mv SRR25421395_2.fastq.gz heart_LAA_CF97_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421386_1.fastq.gz heart_LAA_CF97_S1_L001_R1_001.fastq.gz
+mv SRR25421386_2.fastq.gz heart_LAA_CF97_S1_L001_R2_001.fastq.gz
+mv SRR25421386_3.fastq.gz heart_LAA_CF97_S1_L001_R3_001.fastq.gz
+cd ../../
+
+## heart_LAA_CF102 ##
+# rename fastq rna
+cd heart_LAA_CF102/fastq_rna/
+mv SRR25421392_1.fastq.gz heart_LAA_CF102_S1_L001_R1_001.fastq.gz
+mv SRR25421392_2.fastq.gz heart_LAA_CF102_S1_L001_R2_001.fastq.gz
+mv SRR25421393_1.fastq.gz heart_LAA_CF102_S1_L002_R1_001.fastq.gz
+mv SRR25421393_2.fastq.gz heart_LAA_CF102_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR25421385_1.fastq.gz heart_LAA_CF102_S1_L001_R1_001.fastq.gz
+mv SRR25421385_2.fastq.gz heart_LAA_CF102_S1_L001_R2_001.fastq.gz
+mv SRR25421385_3.fastq.gz heart_LAA_CF102_S1_L001_R3_001.fastq.gz
+cd ../../
+
 
 ## bile duct ##
 # rename fastq rna
