@@ -1,6 +1,659 @@
 # rename fastq files to cellranger-arc preffered format
 cd ../data
 
+## eye_GSE202747_Multiome_control_10_rpe_choroid ##
+# rename fastq rna
+cd eye_GSE202747_Multiome_control_10_rpe_choroid/fastq_rna/
+mv SRR24652994_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652994_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652995_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652995_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR24652930_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652930_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652930_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L001_R3_001.fastq.gz
+mv SRR24652931_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652931_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L002_R2_001.fastq.gz
+mv SRR24652931_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L002_R3_001.fastq.gz
+mv SRR24652932_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L003_R1_001.fastq.gz
+mv SRR24652932_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L003_R2_001.fastq.gz
+mv SRR24652932_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L003_R3_001.fastq.gz
+mv SRR24652933_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L004_R1_001.fastq.gz
+mv SRR24652933_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L004_R2_001.fastq.gz
+mv SRR24652933_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L004_R3_001.fastq.gz
+mv SRR24652934_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L005_R1_001.fastq.gz
+mv SRR24652934_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L005_R2_001.fastq.gz
+mv SRR24652934_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L005_R3_001.fastq.gz
+mv SRR24652935_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L006_R1_001.fastq.gz
+mv SRR24652935_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L006_R2_001.fastq.gz
+mv SRR24652935_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L006_R3_001.fastq.gz
+mv SRR24652936_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L007_R1_001.fastq.gz
+mv SRR24652936_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L007_R2_001.fastq.gz
+mv SRR24652936_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L007_R3_001.fastq.gz
+mv SRR24652937_1.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L008_R1_001.fastq.gz
+mv SRR24652937_2.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L008_R2_001.fastq.gz
+mv SRR24652937_3.fastq.gz eye_GSE202747_Multiome_control_10_rpe_choroid_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_Multiome_control_9_rpe_choroid ##
+# rename fastq rna
+cd eye_GSE202747_Multiome_control_9_rpe_choroid/fastq_rna/
+mv SRR24652996_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652996_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652997_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652997_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR24652938_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652938_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652938_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L001_R3_001.fastq.gz
+mv SRR24652939_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652939_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L002_R2_001.fastq.gz
+mv SRR24652939_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L002_R3_001.fastq.gz
+mv SRR24652940_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L003_R1_001.fastq.gz
+mv SRR24652940_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L003_R2_001.fastq.gz
+mv SRR24652940_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L003_R3_001.fastq.gz
+mv SRR24652941_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L004_R1_001.fastq.gz
+mv SRR24652941_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L004_R2_001.fastq.gz
+mv SRR24652941_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L004_R3_001.fastq.gz
+mv SRR24652942_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L005_R1_001.fastq.gz
+mv SRR24652942_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L005_R2_001.fastq.gz
+mv SRR24652942_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L005_R3_001.fastq.gz
+mv SRR24652943_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L006_R1_001.fastq.gz
+mv SRR24652943_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L006_R2_001.fastq.gz
+mv SRR24652943_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L006_R3_001.fastq.gz
+mv SRR24652944_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L007_R1_001.fastq.gz
+mv SRR24652944_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L007_R2_001.fastq.gz
+mv SRR24652944_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L007_R3_001.fastq.gz
+mv SRR24652945_1.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L008_R1_001.fastq.gz
+mv SRR24652945_2.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L008_R2_001.fastq.gz
+mv SRR24652945_3.fastq.gz eye_GSE202747_Multiome_control_9_rpe_choroid_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_Multiome_control_2_rpe_choroid ##
+# rename fastq rna
+cd eye_GSE202747_Multiome_control_2_rpe_choroid/fastq_rna/
+mv SRR24652998_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652998_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652999_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652999_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR24652946_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L001_R1_001.fastq.gz
+mv SRR24652946_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L001_R2_001.fastq.gz
+mv SRR24652946_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L001_R3_001.fastq.gz
+mv SRR24652947_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L002_R1_001.fastq.gz
+mv SRR24652947_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L002_R2_001.fastq.gz
+mv SRR24652947_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L002_R3_001.fastq.gz
+mv SRR24652948_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L003_R1_001.fastq.gz
+mv SRR24652948_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L003_R2_001.fastq.gz
+mv SRR24652948_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L003_R3_001.fastq.gz
+mv SRR24652949_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L004_R1_001.fastq.gz
+mv SRR24652949_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L004_R2_001.fastq.gz
+mv SRR24652949_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L004_R3_001.fastq.gz
+mv SRR24652950_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L005_R1_001.fastq.gz
+mv SRR24652950_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L005_R2_001.fastq.gz
+mv SRR24652950_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L005_R3_001.fastq.gz
+mv SRR24652951_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L006_R1_001.fastq.gz
+mv SRR24652951_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L006_R2_001.fastq.gz
+mv SRR24652951_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L006_R3_001.fastq.gz
+mv SRR24652952_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L007_R1_001.fastq.gz
+mv SRR24652952_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L007_R2_001.fastq.gz
+mv SRR24652952_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L007_R3_001.fastq.gz
+mv SRR24652953_1.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L008_R1_001.fastq.gz
+mv SRR24652953_2.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L008_R2_001.fastq.gz
+mv SRR24652953_3.fastq.gz eye_GSE202747_Multiome_control_2_rpe_choroid_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_Multiome_control_10_retina ##
+# rename fastq rna
+cd eye_GSE202747_Multiome_control_10_retina/fastq_rna/
+mv SRR24653004_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L001_R1_001.fastq.gz
+mv SRR24653004_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L001_R2_001.fastq.gz
+mv SRR24653005_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L002_R1_001.fastq.gz
+mv SRR24653005_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR24652970_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L001_R1_001.fastq.gz
+mv SRR24652970_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L001_R2_001.fastq.gz
+mv SRR24652970_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L001_R3_001.fastq.gz
+mv SRR24652971_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L002_R1_001.fastq.gz
+mv SRR24652971_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L002_R2_001.fastq.gz
+mv SRR24652971_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L002_R3_001.fastq.gz
+mv SRR24652972_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L003_R1_001.fastq.gz
+mv SRR24652972_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L003_R2_001.fastq.gz
+mv SRR24652972_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L003_R3_001.fastq.gz
+mv SRR24652973_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L004_R1_001.fastq.gz
+mv SRR24652973_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L004_R2_001.fastq.gz
+mv SRR24652973_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L004_R3_001.fastq.gz
+mv SRR24652974_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L005_R1_001.fastq.gz
+mv SRR24652974_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L005_R2_001.fastq.gz
+mv SRR24652974_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L005_R3_001.fastq.gz
+mv SRR24652975_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L006_R1_001.fastq.gz
+mv SRR24652975_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L006_R2_001.fastq.gz
+mv SRR24652975_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L006_R3_001.fastq.gz
+mv SRR24652976_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L007_R1_001.fastq.gz
+mv SRR24652976_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L007_R2_001.fastq.gz
+mv SRR24652976_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L007_R3_001.fastq.gz
+mv SRR24652977_1.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L008_R1_001.fastq.gz
+mv SRR24652977_2.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L008_R2_001.fastq.gz
+mv SRR24652977_3.fastq.gz eye_GSE202747_Multiome_control_10_retina_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_Multiome_control_9_retina ##
+# rename fastq rna
+cd eye_GSE202747_Multiome_control_9_retina/fastq_rna/
+mv SRR24653006_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L001_R1_001.fastq.gz
+mv SRR24653006_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L001_R2_001.fastq.gz
+mv SRR24653007_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L002_R1_001.fastq.gz
+mv SRR24653007_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L002_R2_001.fastq.gz
+# rename fastq atac
+cd ../fastq_atac
+mv SRR24652978_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L001_R1_001.fastq.gz
+mv SRR24652978_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L001_R2_001.fastq.gz
+mv SRR24652978_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L001_R3_001.fastq.gz
+mv SRR24652979_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L002_R1_001.fastq.gz
+mv SRR24652979_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L002_R2_001.fastq.gz
+mv SRR24652979_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L002_R3_001.fastq.gz
+mv SRR24652980_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L003_R1_001.fastq.gz
+mv SRR24652980_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L003_R2_001.fastq.gz
+mv SRR24652980_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L003_R3_001.fastq.gz
+mv SRR24652981_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L004_R1_001.fastq.gz
+mv SRR24652981_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L004_R2_001.fastq.gz
+mv SRR24652981_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L004_R3_001.fastq.gz
+mv SRR24652982_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L005_R1_001.fastq.gz
+mv SRR24652982_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L005_R2_001.fastq.gz
+mv SRR24652982_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L005_R3_001.fastq.gz
+mv SRR24652983_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L006_R1_001.fastq.gz
+mv SRR24652983_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L006_R2_001.fastq.gz
+mv SRR24652983_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L006_R3_001.fastq.gz
+mv SRR24652984_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L007_R1_001.fastq.gz
+mv SRR24652984_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L007_R2_001.fastq.gz
+mv SRR24652984_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L007_R3_001.fastq.gz
+mv SRR24652985_1.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L008_R1_001.fastq.gz
+mv SRR24652985_2.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L008_R2_001.fastq.gz
+mv SRR24652985_3.fastq.gz eye_GSE202747_Multiome_control_9_retina_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_scATAC_periphery_rpechor ##  (8 runs)
+# rename fastq atac
+cd eye_GSE202747_scATAC_periphery_rpechor/fastq_atac/
+mv SRR19169292_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L001_R1_001.fastq.gz
+mv SRR19169292_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L001_R2_001.fastq.gz
+mv SRR19169292_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L001_R3_001.fastq.gz
+mv SRR19169293_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L002_R1_001.fastq.gz
+mv SRR19169293_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L002_R2_001.fastq.gz
+mv SRR19169293_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L002_R3_001.fastq.gz
+mv SRR19169294_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L003_R1_001.fastq.gz
+mv SRR19169294_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L003_R2_001.fastq.gz
+mv SRR19169294_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L003_R3_001.fastq.gz
+mv SRR19169295_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L004_R1_001.fastq.gz
+mv SRR19169295_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L004_R2_001.fastq.gz
+mv SRR19169295_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L004_R3_001.fastq.gz
+mv SRR19169296_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L005_R1_001.fastq.gz
+mv SRR19169296_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L005_R2_001.fastq.gz
+mv SRR19169296_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L005_R3_001.fastq.gz
+mv SRR19169297_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L006_R1_001.fastq.gz
+mv SRR19169297_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L006_R2_001.fastq.gz
+mv SRR19169297_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L006_R3_001.fastq.gz
+mv SRR19169298_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L007_R1_001.fastq.gz
+mv SRR19169298_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L007_R2_001.fastq.gz
+mv SRR19169298_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L007_R3_001.fastq.gz
+mv SRR19169299_1.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L008_R1_001.fastq.gz
+mv SRR19169299_2.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L008_R2_001.fastq.gz
+mv SRR19169299_3.fastq.gz eye_GSE202747_scATAC_periphery_rpechor_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_scATAC_macula_rpechor ##  (8 runs)
+# rename fastq atac
+cd eye_GSE202747_scATAC_macula_rpechor/fastq_atac/
+mv SRR19169287_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L001_R1_001.fastq.gz
+mv SRR19169287_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L001_R2_001.fastq.gz
+mv SRR19169287_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L001_R3_001.fastq.gz
+mv SRR19169288_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L002_R1_001.fastq.gz
+mv SRR19169288_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L002_R2_001.fastq.gz
+mv SRR19169288_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L002_R3_001.fastq.gz
+mv SRR19169289_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L003_R1_001.fastq.gz
+mv SRR19169289_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L003_R2_001.fastq.gz
+mv SRR19169289_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L003_R3_001.fastq.gz
+mv SRR19169290_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L004_R1_001.fastq.gz
+mv SRR19169290_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L004_R2_001.fastq.gz
+mv SRR19169290_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L004_R3_001.fastq.gz
+mv SRR19169291_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L005_R1_001.fastq.gz
+mv SRR19169291_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L005_R2_001.fastq.gz
+mv SRR19169291_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L005_R3_001.fastq.gz
+mv SRR19169308_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L006_R1_001.fastq.gz
+mv SRR19169308_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L006_R2_001.fastq.gz
+mv SRR19169308_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L006_R3_001.fastq.gz
+mv SRR19169309_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L007_R1_001.fastq.gz
+mv SRR19169309_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L007_R2_001.fastq.gz
+mv SRR19169309_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L007_R3_001.fastq.gz
+mv SRR19169310_1.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L008_R1_001.fastq.gz
+mv SRR19169310_2.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L008_R2_001.fastq.gz
+mv SRR19169310_3.fastq.gz eye_GSE202747_scATAC_macula_rpechor_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_scATAC_periphery_retina ##  (8 runs)
+# rename fastq atac
+cd eye_GSE202747_scATAC_periphery_retina/fastq_atac/
+mv SRR19169300_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L001_R1_001.fastq.gz
+mv SRR19169300_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L001_R2_001.fastq.gz
+mv SRR19169300_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L001_R3_001.fastq.gz
+mv SRR19169301_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L002_R1_001.fastq.gz
+mv SRR19169301_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L002_R2_001.fastq.gz
+mv SRR19169301_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L002_R3_001.fastq.gz
+mv SRR19169302_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L003_R1_001.fastq.gz
+mv SRR19169302_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L003_R2_001.fastq.gz
+mv SRR19169302_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L003_R3_001.fastq.gz
+mv SRR19169303_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L004_R1_001.fastq.gz
+mv SRR19169303_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L004_R2_001.fastq.gz
+mv SRR19169303_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L004_R3_001.fastq.gz
+mv SRR19169304_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L005_R1_001.fastq.gz
+mv SRR19169304_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L005_R2_001.fastq.gz
+mv SRR19169304_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L005_R3_001.fastq.gz
+mv SRR19169305_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L006_R1_001.fastq.gz
+mv SRR19169305_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L006_R2_001.fastq.gz
+mv SRR19169305_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L006_R3_001.fastq.gz
+mv SRR19169306_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L007_R1_001.fastq.gz
+mv SRR19169306_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L007_R2_001.fastq.gz
+mv SRR19169306_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L007_R3_001.fastq.gz
+mv SRR19169307_1.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L008_R1_001.fastq.gz
+mv SRR19169307_2.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L008_R2_001.fastq.gz
+mv SRR19169307_3.fastq.gz eye_GSE202747_scATAC_periphery_retina_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## eye_GSE202747_scATAC_macula_retina ##  (GSM6132186, 8 runs)
+# rename fastq atac
+cd eye_GSE202747_scATAC_macula_retina/fastq_atac/
+mv SRR19169311_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L001_R1_001.fastq.gz
+mv SRR19169311_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L001_R2_001.fastq.gz
+mv SRR19169311_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L001_R3_001.fastq.gz
+mv SRR19169312_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L002_R1_001.fastq.gz
+mv SRR19169312_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L002_R2_001.fastq.gz
+mv SRR19169312_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L002_R3_001.fastq.gz
+mv SRR19169313_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L003_R1_001.fastq.gz
+mv SRR19169313_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L003_R2_001.fastq.gz
+mv SRR19169313_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L003_R3_001.fastq.gz
+mv SRR19169314_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L004_R1_001.fastq.gz
+mv SRR19169314_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L004_R2_001.fastq.gz
+mv SRR19169314_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L004_R3_001.fastq.gz
+mv SRR19169315_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L005_R1_001.fastq.gz
+mv SRR19169315_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L005_R2_001.fastq.gz
+mv SRR19169315_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L005_R3_001.fastq.gz
+mv SRR19169316_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L006_R1_001.fastq.gz
+mv SRR19169316_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L006_R2_001.fastq.gz
+mv SRR19169316_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L006_R3_001.fastq.gz
+mv SRR19169331_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L007_R1_001.fastq.gz
+mv SRR19169331_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L007_R2_001.fastq.gz
+mv SRR19169331_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L007_R3_001.fastq.gz
+mv SRR19169332_1.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L008_R1_001.fastq.gz
+mv SRR19169332_2.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L008_R2_001.fastq.gz
+mv SRR19169332_3.fastq.gz eye_GSE202747_scATAC_macula_retina_S1_L008_R3_001.fastq.gz
+cd ../../
+
+
+## heart_donor1_septum ##
+# rename fastq atac
+cd heart_donor1_septum/fastq_atac/
+mv SRR23392173_1.fastq.gz heart_donor1_septum_S1_L001_I1_001.fastq.gz
+mv SRR23392173_2.fastq.gz heart_donor1_septum_S1_L001_R1_001.fastq.gz
+mv SRR23392173_3.fastq.gz heart_donor1_septum_S1_L001_R2_001.fastq.gz
+mv SRR23392173_4.fastq.gz heart_donor1_septum_S1_L001_R3_001.fastq.gz
+mv SRR23392174_1.fastq.gz heart_donor1_septum_S1_L002_I1_001.fastq.gz
+mv SRR23392174_2.fastq.gz heart_donor1_septum_S1_L002_R1_001.fastq.gz
+mv SRR23392174_3.fastq.gz heart_donor1_septum_S1_L002_R2_001.fastq.gz
+mv SRR23392174_4.fastq.gz heart_donor1_septum_S1_L002_R3_001.fastq.gz
+cd ../../
+
+## heart_donor1_RV ##  (GSM7036807, 5 runs)
+# rename fastq atac
+cd heart_donor1_RV/fastq_atac/
+mv SRR23392241_1.fastq.gz heart_donor1_RV_S1_L001_I1_001.fastq.gz
+mv SRR23392241_2.fastq.gz heart_donor1_RV_S1_L001_R1_001.fastq.gz
+mv SRR23392241_3.fastq.gz heart_donor1_RV_S1_L001_R2_001.fastq.gz
+mv SRR23392241_4.fastq.gz heart_donor1_RV_S1_L001_R3_001.fastq.gz
+mv SRR23392242_1.fastq.gz heart_donor1_RV_S1_L002_I1_001.fastq.gz
+mv SRR23392242_2.fastq.gz heart_donor1_RV_S1_L002_R1_001.fastq.gz
+mv SRR23392242_3.fastq.gz heart_donor1_RV_S1_L002_R2_001.fastq.gz
+mv SRR23392242_4.fastq.gz heart_donor1_RV_S1_L002_R3_001.fastq.gz
+mv SRR23392243_1.fastq.gz heart_donor1_RV_S1_L003_I1_001.fastq.gz
+mv SRR23392243_2.fastq.gz heart_donor1_RV_S1_L003_R1_001.fastq.gz
+mv SRR23392243_3.fastq.gz heart_donor1_RV_S1_L003_R2_001.fastq.gz
+mv SRR23392243_4.fastq.gz heart_donor1_RV_S1_L003_R3_001.fastq.gz
+mv SRR23392244_1.fastq.gz heart_donor1_RV_S1_L004_I1_001.fastq.gz
+mv SRR23392244_2.fastq.gz heart_donor1_RV_S1_L004_R1_001.fastq.gz
+mv SRR23392244_3.fastq.gz heart_donor1_RV_S1_L004_R2_001.fastq.gz
+mv SRR23392244_4.fastq.gz heart_donor1_RV_S1_L004_R3_001.fastq.gz
+mv SRR23392245_1.fastq.gz heart_donor1_RV_S1_L005_I1_001.fastq.gz
+mv SRR23392245_2.fastq.gz heart_donor1_RV_S1_L005_R1_001.fastq.gz
+mv SRR23392245_3.fastq.gz heart_donor1_RV_S1_L005_R2_001.fastq.gz
+mv SRR23392245_4.fastq.gz heart_donor1_RV_S1_L005_R3_001.fastq.gz
+cd ../../
+
+## heart_donor1_LV ##  (GSM7036808, 6 runs)
+# rename fastq atac
+cd heart_donor1_LV/fastq_atac/
+mv SRR23392235_1.fastq.gz heart_donor1_LV_S1_L001_I1_001.fastq.gz
+mv SRR23392235_2.fastq.gz heart_donor1_LV_S1_L001_R1_001.fastq.gz
+mv SRR23392235_3.fastq.gz heart_donor1_LV_S1_L001_R2_001.fastq.gz
+mv SRR23392235_4.fastq.gz heart_donor1_LV_S1_L001_R3_001.fastq.gz
+mv SRR23392236_1.fastq.gz heart_donor1_LV_S1_L002_I1_001.fastq.gz
+mv SRR23392236_2.fastq.gz heart_donor1_LV_S1_L002_R1_001.fastq.gz
+mv SRR23392236_3.fastq.gz heart_donor1_LV_S1_L002_R2_001.fastq.gz
+mv SRR23392236_4.fastq.gz heart_donor1_LV_S1_L002_R3_001.fastq.gz
+mv SRR23392237_1.fastq.gz heart_donor1_LV_S1_L003_I1_001.fastq.gz
+mv SRR23392237_2.fastq.gz heart_donor1_LV_S1_L003_R1_001.fastq.gz
+mv SRR23392237_3.fastq.gz heart_donor1_LV_S1_L003_R2_001.fastq.gz
+mv SRR23392237_4.fastq.gz heart_donor1_LV_S1_L003_R3_001.fastq.gz
+mv SRR23392238_1.fastq.gz heart_donor1_LV_S1_L004_I1_001.fastq.gz
+mv SRR23392238_2.fastq.gz heart_donor1_LV_S1_L004_R1_001.fastq.gz
+mv SRR23392238_3.fastq.gz heart_donor1_LV_S1_L004_R2_001.fastq.gz
+mv SRR23392238_4.fastq.gz heart_donor1_LV_S1_L004_R3_001.fastq.gz
+mv SRR23392239_1.fastq.gz heart_donor1_LV_S1_L005_I1_001.fastq.gz
+mv SRR23392239_2.fastq.gz heart_donor1_LV_S1_L005_R1_001.fastq.gz
+mv SRR23392239_3.fastq.gz heart_donor1_LV_S1_L005_R2_001.fastq.gz
+mv SRR23392239_4.fastq.gz heart_donor1_LV_S1_L005_R3_001.fastq.gz
+mv SRR23392240_1.fastq.gz heart_donor1_LV_S1_L006_I1_001.fastq.gz
+mv SRR23392240_2.fastq.gz heart_donor1_LV_S1_L006_R1_001.fastq.gz
+mv SRR23392240_3.fastq.gz heart_donor1_LV_S1_L006_R2_001.fastq.gz
+mv SRR23392240_4.fastq.gz heart_donor1_LV_S1_L006_R3_001.fastq.gz
+cd ../../
+
+## heart_donor1_apex ##  (GSM7036809, 4 runs)
+# rename fastq atac
+cd heart_donor1_apex/fastq_atac/
+mv SRR23392231_1.fastq.gz heart_donor1_apex_S1_L001_I1_001.fastq.gz
+mv SRR23392231_2.fastq.gz heart_donor1_apex_S1_L001_R1_001.fastq.gz
+mv SRR23392231_3.fastq.gz heart_donor1_apex_S1_L001_R2_001.fastq.gz
+mv SRR23392231_4.fastq.gz heart_donor1_apex_S1_L001_R3_001.fastq.gz
+mv SRR23392232_1.fastq.gz heart_donor1_apex_S1_L002_I1_001.fastq.gz
+mv SRR23392232_2.fastq.gz heart_donor1_apex_S1_L002_R1_001.fastq.gz
+mv SRR23392232_3.fastq.gz heart_donor1_apex_S1_L002_R2_001.fastq.gz
+mv SRR23392232_4.fastq.gz heart_donor1_apex_S1_L002_R3_001.fastq.gz
+mv SRR23392233_1.fastq.gz heart_donor1_apex_S1_L003_I1_001.fastq.gz
+mv SRR23392233_2.fastq.gz heart_donor1_apex_S1_L003_R1_001.fastq.gz
+mv SRR23392233_3.fastq.gz heart_donor1_apex_S1_L003_R2_001.fastq.gz
+mv SRR23392233_4.fastq.gz heart_donor1_apex_S1_L003_R3_001.fastq.gz
+mv SRR23392234_1.fastq.gz heart_donor1_apex_S1_L004_I1_001.fastq.gz
+mv SRR23392234_2.fastq.gz heart_donor1_apex_S1_L004_R1_001.fastq.gz
+mv SRR23392234_3.fastq.gz heart_donor1_apex_S1_L004_R2_001.fastq.gz
+mv SRR23392234_4.fastq.gz heart_donor1_apex_S1_L004_R3_001.fastq.gz
+cd ../../
+
+## heart_donor2_septum ##  (GSM7036810, 4 runs)
+# rename fastq atac
+cd heart_donor2_septum/fastq_atac/
+mv SRR23392227_1.fastq.gz heart_donor2_septum_S1_L001_I1_001.fastq.gz
+mv SRR23392227_2.fastq.gz heart_donor2_septum_S1_L001_R1_001.fastq.gz
+mv SRR23392227_3.fastq.gz heart_donor2_septum_S1_L001_R2_001.fastq.gz
+mv SRR23392227_4.fastq.gz heart_donor2_septum_S1_L001_R3_001.fastq.gz
+mv SRR23392228_1.fastq.gz heart_donor2_septum_S1_L002_I1_001.fastq.gz
+mv SRR23392228_2.fastq.gz heart_donor2_septum_S1_L002_R1_001.fastq.gz
+mv SRR23392228_3.fastq.gz heart_donor2_septum_S1_L002_R2_001.fastq.gz
+mv SRR23392228_4.fastq.gz heart_donor2_septum_S1_L002_R3_001.fastq.gz
+mv SRR23392229_1.fastq.gz heart_donor2_septum_S1_L003_I1_001.fastq.gz
+mv SRR23392229_2.fastq.gz heart_donor2_septum_S1_L003_R1_001.fastq.gz
+mv SRR23392229_3.fastq.gz heart_donor2_septum_S1_L003_R2_001.fastq.gz
+mv SRR23392229_4.fastq.gz heart_donor2_septum_S1_L003_R3_001.fastq.gz
+mv SRR23392230_1.fastq.gz heart_donor2_septum_S1_L004_I1_001.fastq.gz
+mv SRR23392230_2.fastq.gz heart_donor2_septum_S1_L004_R1_001.fastq.gz
+mv SRR23392230_3.fastq.gz heart_donor2_septum_S1_L004_R2_001.fastq.gz
+mv SRR23392230_4.fastq.gz heart_donor2_septum_S1_L004_R3_001.fastq.gz
+cd ../../
+
+## heart_donor2_RV ##  (GSM7036811, 10 runs)
+# rename fastq atac
+cd heart_donor2_RV/fastq_atac/
+mv SRR23392217_1.fastq.gz heart_donor2_RV_S1_L001_I1_001.fastq.gz
+mv SRR23392217_2.fastq.gz heart_donor2_RV_S1_L001_R1_001.fastq.gz
+mv SRR23392217_3.fastq.gz heart_donor2_RV_S1_L001_R2_001.fastq.gz
+mv SRR23392217_4.fastq.gz heart_donor2_RV_S1_L001_R3_001.fastq.gz
+mv SRR23392218_1.fastq.gz heart_donor2_RV_S1_L002_I1_001.fastq.gz
+mv SRR23392218_2.fastq.gz heart_donor2_RV_S1_L002_R1_001.fastq.gz
+mv SRR23392218_3.fastq.gz heart_donor2_RV_S1_L002_R2_001.fastq.gz
+mv SRR23392218_4.fastq.gz heart_donor2_RV_S1_L002_R3_001.fastq.gz
+mv SRR23392219_1.fastq.gz heart_donor2_RV_S1_L003_I1_001.fastq.gz
+mv SRR23392219_2.fastq.gz heart_donor2_RV_S1_L003_R1_001.fastq.gz
+mv SRR23392219_3.fastq.gz heart_donor2_RV_S1_L003_R2_001.fastq.gz
+mv SRR23392219_4.fastq.gz heart_donor2_RV_S1_L003_R3_001.fastq.gz
+mv SRR23392220_1.fastq.gz heart_donor2_RV_S1_L004_I1_001.fastq.gz
+mv SRR23392220_2.fastq.gz heart_donor2_RV_S1_L004_R1_001.fastq.gz
+mv SRR23392220_3.fastq.gz heart_donor2_RV_S1_L004_R2_001.fastq.gz
+mv SRR23392220_4.fastq.gz heart_donor2_RV_S1_L004_R3_001.fastq.gz
+mv SRR23392221_1.fastq.gz heart_donor2_RV_S1_L005_I1_001.fastq.gz
+mv SRR23392221_2.fastq.gz heart_donor2_RV_S1_L005_R1_001.fastq.gz
+mv SRR23392221_3.fastq.gz heart_donor2_RV_S1_L005_R2_001.fastq.gz
+mv SRR23392221_4.fastq.gz heart_donor2_RV_S1_L005_R3_001.fastq.gz
+mv SRR23392222_1.fastq.gz heart_donor2_RV_S1_L006_I1_001.fastq.gz
+mv SRR23392222_2.fastq.gz heart_donor2_RV_S1_L006_R1_001.fastq.gz
+mv SRR23392222_3.fastq.gz heart_donor2_RV_S1_L006_R2_001.fastq.gz
+mv SRR23392222_4.fastq.gz heart_donor2_RV_S1_L006_R3_001.fastq.gz
+mv SRR23392223_1.fastq.gz heart_donor2_RV_S1_L007_I1_001.fastq.gz
+mv SRR23392223_2.fastq.gz heart_donor2_RV_S1_L007_R1_001.fastq.gz
+mv SRR23392223_3.fastq.gz heart_donor2_RV_S1_L007_R2_001.fastq.gz
+mv SRR23392223_4.fastq.gz heart_donor2_RV_S1_L007_R3_001.fastq.gz
+mv SRR23392224_1.fastq.gz heart_donor2_RV_S1_L008_I1_001.fastq.gz
+mv SRR23392224_2.fastq.gz heart_donor2_RV_S1_L008_R1_001.fastq.gz
+mv SRR23392224_3.fastq.gz heart_donor2_RV_S1_L008_R2_001.fastq.gz
+mv SRR23392224_4.fastq.gz heart_donor2_RV_S1_L008_R3_001.fastq.gz
+mv SRR23392225_1.fastq.gz heart_donor2_RV_S1_L009_I1_001.fastq.gz
+mv SRR23392225_2.fastq.gz heart_donor2_RV_S1_L009_R1_001.fastq.gz
+mv SRR23392225_3.fastq.gz heart_donor2_RV_S1_L009_R2_001.fastq.gz
+mv SRR23392225_4.fastq.gz heart_donor2_RV_S1_L009_R3_001.fastq.gz
+mv SRR23392226_1.fastq.gz heart_donor2_RV_S1_L010_I1_001.fastq.gz
+mv SRR23392226_2.fastq.gz heart_donor2_RV_S1_L010_R1_001.fastq.gz
+mv SRR23392226_3.fastq.gz heart_donor2_RV_S1_L010_R2_001.fastq.gz
+mv SRR23392226_4.fastq.gz heart_donor2_RV_S1_L010_R3_001.fastq.gz
+cd ../../
+
+## heart_donor2_LV ##  (GSM7036812, 10 runs)
+# rename fastq atac
+cd heart_donor2_LV/fastq_atac/
+mv SRR23392206_1.fastq.gz heart_donor2_LV_S1_L001_I1_001.fastq.gz
+mv SRR23392206_2.fastq.gz heart_donor2_LV_S1_L001_R1_001.fastq.gz
+mv SRR23392206_3.fastq.gz heart_donor2_LV_S1_L001_R2_001.fastq.gz
+mv SRR23392206_4.fastq.gz heart_donor2_LV_S1_L001_R3_001.fastq.gz
+mv SRR23392207_1.fastq.gz heart_donor2_LV_S1_L002_I1_001.fastq.gz
+mv SRR23392207_2.fastq.gz heart_donor2_LV_S1_L002_R1_001.fastq.gz
+mv SRR23392207_3.fastq.gz heart_donor2_LV_S1_L002_R2_001.fastq.gz
+mv SRR23392207_4.fastq.gz heart_donor2_LV_S1_L002_R3_001.fastq.gz
+mv SRR23392208_1.fastq.gz heart_donor2_LV_S1_L003_I1_001.fastq.gz
+mv SRR23392208_2.fastq.gz heart_donor2_LV_S1_L003_R1_001.fastq.gz
+mv SRR23392208_3.fastq.gz heart_donor2_LV_S1_L003_R2_001.fastq.gz
+mv SRR23392208_4.fastq.gz heart_donor2_LV_S1_L003_R3_001.fastq.gz
+mv SRR23392209_1.fastq.gz heart_donor2_LV_S1_L004_I1_001.fastq.gz
+mv SRR23392209_2.fastq.gz heart_donor2_LV_S1_L004_R1_001.fastq.gz
+mv SRR23392209_3.fastq.gz heart_donor2_LV_S1_L004_R2_001.fastq.gz
+mv SRR23392209_4.fastq.gz heart_donor2_LV_S1_L004_R3_001.fastq.gz
+mv SRR23392210_1.fastq.gz heart_donor2_LV_S1_L005_I1_001.fastq.gz
+mv SRR23392210_2.fastq.gz heart_donor2_LV_S1_L005_R1_001.fastq.gz
+mv SRR23392210_3.fastq.gz heart_donor2_LV_S1_L005_R2_001.fastq.gz
+mv SRR23392210_4.fastq.gz heart_donor2_LV_S1_L005_R3_001.fastq.gz
+mv SRR23392211_1.fastq.gz heart_donor2_LV_S1_L006_I1_001.fastq.gz
+mv SRR23392211_2.fastq.gz heart_donor2_LV_S1_L006_R1_001.fastq.gz
+mv SRR23392211_3.fastq.gz heart_donor2_LV_S1_L006_R2_001.fastq.gz
+mv SRR23392211_4.fastq.gz heart_donor2_LV_S1_L006_R3_001.fastq.gz
+mv SRR23392213_1.fastq.gz heart_donor2_LV_S1_L007_I1_001.fastq.gz
+mv SRR23392213_2.fastq.gz heart_donor2_LV_S1_L007_R1_001.fastq.gz
+mv SRR23392213_3.fastq.gz heart_donor2_LV_S1_L007_R2_001.fastq.gz
+mv SRR23392213_4.fastq.gz heart_donor2_LV_S1_L007_R3_001.fastq.gz
+mv SRR23392214_1.fastq.gz heart_donor2_LV_S1_L008_I1_001.fastq.gz
+mv SRR23392214_2.fastq.gz heart_donor2_LV_S1_L008_R1_001.fastq.gz
+mv SRR23392214_3.fastq.gz heart_donor2_LV_S1_L008_R2_001.fastq.gz
+mv SRR23392214_4.fastq.gz heart_donor2_LV_S1_L008_R3_001.fastq.gz
+mv SRR23392215_1.fastq.gz heart_donor2_LV_S1_L009_I1_001.fastq.gz
+mv SRR23392215_2.fastq.gz heart_donor2_LV_S1_L009_R1_001.fastq.gz
+mv SRR23392215_3.fastq.gz heart_donor2_LV_S1_L009_R2_001.fastq.gz
+mv SRR23392215_4.fastq.gz heart_donor2_LV_S1_L009_R3_001.fastq.gz
+mv SRR23392216_1.fastq.gz heart_donor2_LV_S1_L010_I1_001.fastq.gz
+mv SRR23392216_2.fastq.gz heart_donor2_LV_S1_L010_R1_001.fastq.gz
+mv SRR23392216_3.fastq.gz heart_donor2_LV_S1_L010_R2_001.fastq.gz
+mv SRR23392216_4.fastq.gz heart_donor2_LV_S1_L010_R3_001.fastq.gz
+cd ../../
+
+## heart_donor2_apex ##  (GSM7036813, 4 runs)
+# rename fastq atac
+cd heart_donor2_apex/fastq_atac/
+mv SRR23392202_1.fastq.gz heart_donor2_apex_S1_L001_I1_001.fastq.gz
+mv SRR23392202_2.fastq.gz heart_donor2_apex_S1_L001_R1_001.fastq.gz
+mv SRR23392202_3.fastq.gz heart_donor2_apex_S1_L001_R2_001.fastq.gz
+mv SRR23392202_4.fastq.gz heart_donor2_apex_S1_L001_R3_001.fastq.gz
+mv SRR23392203_1.fastq.gz heart_donor2_apex_S1_L002_I1_001.fastq.gz
+mv SRR23392203_2.fastq.gz heart_donor2_apex_S1_L002_R1_001.fastq.gz
+mv SRR23392203_3.fastq.gz heart_donor2_apex_S1_L002_R2_001.fastq.gz
+mv SRR23392203_4.fastq.gz heart_donor2_apex_S1_L002_R3_001.fastq.gz
+mv SRR23392204_1.fastq.gz heart_donor2_apex_S1_L003_I1_001.fastq.gz
+mv SRR23392204_2.fastq.gz heart_donor2_apex_S1_L003_R1_001.fastq.gz
+mv SRR23392204_3.fastq.gz heart_donor2_apex_S1_L003_R2_001.fastq.gz
+mv SRR23392204_4.fastq.gz heart_donor2_apex_S1_L003_R3_001.fastq.gz
+mv SRR23392205_1.fastq.gz heart_donor2_apex_S1_L004_I1_001.fastq.gz
+mv SRR23392205_2.fastq.gz heart_donor2_apex_S1_L004_R1_001.fastq.gz
+mv SRR23392205_3.fastq.gz heart_donor2_apex_S1_L004_R2_001.fastq.gz
+mv SRR23392205_4.fastq.gz heart_donor2_apex_S1_L004_R3_001.fastq.gz
+cd ../../
+
+## heart_donor3_septum ##  (GSM7036814, 4 runs)
+# rename fastq atac
+cd heart_donor3_septum/fastq_atac/
+mv SRR23392198_1.fastq.gz heart_donor3_septum_S1_L001_I1_001.fastq.gz
+mv SRR23392198_2.fastq.gz heart_donor3_septum_S1_L001_R1_001.fastq.gz
+mv SRR23392198_3.fastq.gz heart_donor3_septum_S1_L001_R2_001.fastq.gz
+mv SRR23392198_4.fastq.gz heart_donor3_septum_S1_L001_R3_001.fastq.gz
+mv SRR23392199_1.fastq.gz heart_donor3_septum_S1_L002_I1_001.fastq.gz
+mv SRR23392199_2.fastq.gz heart_donor3_septum_S1_L002_R1_001.fastq.gz
+mv SRR23392199_3.fastq.gz heart_donor3_septum_S1_L002_R2_001.fastq.gz
+mv SRR23392199_4.fastq.gz heart_donor3_septum_S1_L002_R3_001.fastq.gz
+mv SRR23392200_1.fastq.gz heart_donor3_septum_S1_L003_I1_001.fastq.gz
+mv SRR23392200_2.fastq.gz heart_donor3_septum_S1_L003_R1_001.fastq.gz
+mv SRR23392200_3.fastq.gz heart_donor3_septum_S1_L003_R2_001.fastq.gz
+mv SRR23392200_4.fastq.gz heart_donor3_septum_S1_L003_R3_001.fastq.gz
+mv SRR23392201_1.fastq.gz heart_donor3_septum_S1_L004_I1_001.fastq.gz
+mv SRR23392201_2.fastq.gz heart_donor3_septum_S1_L004_R1_001.fastq.gz
+mv SRR23392201_3.fastq.gz heart_donor3_septum_S1_L004_R2_001.fastq.gz
+mv SRR23392201_4.fastq.gz heart_donor3_septum_S1_L004_R3_001.fastq.gz
+cd ../../
+
+## heart_donor3_RV ##  (GSM7036815, 10 runs)
+# rename fastq atac
+cd heart_donor3_RV/fastq_atac/
+mv SRR23392188_1.fastq.gz heart_donor3_RV_S1_L001_I1_001.fastq.gz
+mv SRR23392188_2.fastq.gz heart_donor3_RV_S1_L001_R1_001.fastq.gz
+mv SRR23392188_3.fastq.gz heart_donor3_RV_S1_L001_R2_001.fastq.gz
+mv SRR23392188_4.fastq.gz heart_donor3_RV_S1_L001_R3_001.fastq.gz
+mv SRR23392189_1.fastq.gz heart_donor3_RV_S1_L002_I1_001.fastq.gz
+mv SRR23392189_2.fastq.gz heart_donor3_RV_S1_L002_R1_001.fastq.gz
+mv SRR23392189_3.fastq.gz heart_donor3_RV_S1_L002_R2_001.fastq.gz
+mv SRR23392189_4.fastq.gz heart_donor3_RV_S1_L002_R3_001.fastq.gz
+mv SRR23392190_1.fastq.gz heart_donor3_RV_S1_L003_I1_001.fastq.gz
+mv SRR23392190_2.fastq.gz heart_donor3_RV_S1_L003_R1_001.fastq.gz
+mv SRR23392190_3.fastq.gz heart_donor3_RV_S1_L003_R2_001.fastq.gz
+mv SRR23392190_4.fastq.gz heart_donor3_RV_S1_L003_R3_001.fastq.gz
+mv SRR23392191_1.fastq.gz heart_donor3_RV_S1_L004_I1_001.fastq.gz
+mv SRR23392191_2.fastq.gz heart_donor3_RV_S1_L004_R1_001.fastq.gz
+mv SRR23392191_3.fastq.gz heart_donor3_RV_S1_L004_R2_001.fastq.gz
+mv SRR23392191_4.fastq.gz heart_donor3_RV_S1_L004_R3_001.fastq.gz
+mv SRR23392192_1.fastq.gz heart_donor3_RV_S1_L005_I1_001.fastq.gz
+mv SRR23392192_2.fastq.gz heart_donor3_RV_S1_L005_R1_001.fastq.gz
+mv SRR23392192_3.fastq.gz heart_donor3_RV_S1_L005_R2_001.fastq.gz
+mv SRR23392192_4.fastq.gz heart_donor3_RV_S1_L005_R3_001.fastq.gz
+mv SRR23392193_1.fastq.gz heart_donor3_RV_S1_L006_I1_001.fastq.gz
+mv SRR23392193_2.fastq.gz heart_donor3_RV_S1_L006_R1_001.fastq.gz
+mv SRR23392193_3.fastq.gz heart_donor3_RV_S1_L006_R2_001.fastq.gz
+mv SRR23392193_4.fastq.gz heart_donor3_RV_S1_L006_R3_001.fastq.gz
+mv SRR23392194_1.fastq.gz heart_donor3_RV_S1_L007_I1_001.fastq.gz
+mv SRR23392194_2.fastq.gz heart_donor3_RV_S1_L007_R1_001.fastq.gz
+mv SRR23392194_3.fastq.gz heart_donor3_RV_S1_L007_R2_001.fastq.gz
+mv SRR23392194_4.fastq.gz heart_donor3_RV_S1_L007_R3_001.fastq.gz
+mv SRR23392195_1.fastq.gz heart_donor3_RV_S1_L008_I1_001.fastq.gz
+mv SRR23392195_2.fastq.gz heart_donor3_RV_S1_L008_R1_001.fastq.gz
+mv SRR23392195_3.fastq.gz heart_donor3_RV_S1_L008_R2_001.fastq.gz
+mv SRR23392195_4.fastq.gz heart_donor3_RV_S1_L008_R3_001.fastq.gz
+mv SRR23392196_1.fastq.gz heart_donor3_RV_S1_L009_I1_001.fastq.gz
+mv SRR23392196_2.fastq.gz heart_donor3_RV_S1_L009_R1_001.fastq.gz
+mv SRR23392196_3.fastq.gz heart_donor3_RV_S1_L009_R2_001.fastq.gz
+mv SRR23392196_4.fastq.gz heart_donor3_RV_S1_L009_R3_001.fastq.gz
+mv SRR23392197_1.fastq.gz heart_donor3_RV_S1_L010_I1_001.fastq.gz
+mv SRR23392197_2.fastq.gz heart_donor3_RV_S1_L010_R1_001.fastq.gz
+mv SRR23392197_3.fastq.gz heart_donor3_RV_S1_L010_R2_001.fastq.gz
+mv SRR23392197_4.fastq.gz heart_donor3_RV_S1_L010_R3_001.fastq.gz
+cd ../../
+
+## heart_donor3_LV ##  (GSM7036816, 10 runs)
+# rename fastq atac
+cd heart_donor3_LV/fastq_atac/
+mv SRR23392178_1.fastq.gz heart_donor3_LV_S1_L001_I1_001.fastq.gz
+mv SRR23392178_2.fastq.gz heart_donor3_LV_S1_L001_R1_001.fastq.gz
+mv SRR23392178_3.fastq.gz heart_donor3_LV_S1_L001_R2_001.fastq.gz
+mv SRR23392178_4.fastq.gz heart_donor3_LV_S1_L001_R3_001.fastq.gz
+mv SRR23392179_1.fastq.gz heart_donor3_LV_S1_L002_I1_001.fastq.gz
+mv SRR23392179_2.fastq.gz heart_donor3_LV_S1_L002_R1_001.fastq.gz
+mv SRR23392179_3.fastq.gz heart_donor3_LV_S1_L002_R2_001.fastq.gz
+mv SRR23392179_4.fastq.gz heart_donor3_LV_S1_L002_R3_001.fastq.gz
+mv SRR23392180_1.fastq.gz heart_donor3_LV_S1_L003_I1_001.fastq.gz
+mv SRR23392180_2.fastq.gz heart_donor3_LV_S1_L003_R1_001.fastq.gz
+mv SRR23392180_3.fastq.gz heart_donor3_LV_S1_L003_R2_001.fastq.gz
+mv SRR23392180_4.fastq.gz heart_donor3_LV_S1_L003_R3_001.fastq.gz
+mv SRR23392181_1.fastq.gz heart_donor3_LV_S1_L004_I1_001.fastq.gz
+mv SRR23392181_2.fastq.gz heart_donor3_LV_S1_L004_R1_001.fastq.gz
+mv SRR23392181_3.fastq.gz heart_donor3_LV_S1_L004_R2_001.fastq.gz
+mv SRR23392181_4.fastq.gz heart_donor3_LV_S1_L004_R3_001.fastq.gz
+mv SRR23392182_1.fastq.gz heart_donor3_LV_S1_L005_I1_001.fastq.gz
+mv SRR23392182_2.fastq.gz heart_donor3_LV_S1_L005_R1_001.fastq.gz
+mv SRR23392182_3.fastq.gz heart_donor3_LV_S1_L005_R2_001.fastq.gz
+mv SRR23392182_4.fastq.gz heart_donor3_LV_S1_L005_R3_001.fastq.gz
+mv SRR23392183_1.fastq.gz heart_donor3_LV_S1_L006_I1_001.fastq.gz
+mv SRR23392183_2.fastq.gz heart_donor3_LV_S1_L006_R1_001.fastq.gz
+mv SRR23392183_3.fastq.gz heart_donor3_LV_S1_L006_R2_001.fastq.gz
+mv SRR23392183_4.fastq.gz heart_donor3_LV_S1_L006_R3_001.fastq.gz
+mv SRR23392184_1.fastq.gz heart_donor3_LV_S1_L007_I1_001.fastq.gz
+mv SRR23392184_2.fastq.gz heart_donor3_LV_S1_L007_R1_001.fastq.gz
+mv SRR23392184_3.fastq.gz heart_donor3_LV_S1_L007_R2_001.fastq.gz
+mv SRR23392184_4.fastq.gz heart_donor3_LV_S1_L007_R3_001.fastq.gz
+mv SRR23392185_1.fastq.gz heart_donor3_LV_S1_L008_I1_001.fastq.gz
+mv SRR23392185_2.fastq.gz heart_donor3_LV_S1_L008_R1_001.fastq.gz
+mv SRR23392185_3.fastq.gz heart_donor3_LV_S1_L008_R2_001.fastq.gz
+mv SRR23392185_4.fastq.gz heart_donor3_LV_S1_L008_R3_001.fastq.gz
+mv SRR23392186_1.fastq.gz heart_donor3_LV_S1_L009_I1_001.fastq.gz
+mv SRR23392186_2.fastq.gz heart_donor3_LV_S1_L009_R1_001.fastq.gz
+mv SRR23392186_3.fastq.gz heart_donor3_LV_S1_L009_R2_001.fastq.gz
+mv SRR23392186_4.fastq.gz heart_donor3_LV_S1_L009_R3_001.fastq.gz
+mv SRR23392187_1.fastq.gz heart_donor3_LV_S1_L010_I1_001.fastq.gz
+mv SRR23392187_2.fastq.gz heart_donor3_LV_S1_L010_R1_001.fastq.gz
+mv SRR23392187_3.fastq.gz heart_donor3_LV_S1_L010_R2_001.fastq.gz
+mv SRR23392187_4.fastq.gz heart_donor3_LV_S1_L010_R3_001.fastq.gz
+cd ../../
+
+## heart_donor3_apex ##  (GSM7036817, 4 runs)
+# rename fastq atac
+cd heart_donor3_apex/fastq_atac/
+mv SRR23392175_1.fastq.gz heart_donor3_apex_S1_L001_I1_001.fastq.gz
+mv SRR23392175_2.fastq.gz heart_donor3_apex_S1_L001_R1_001.fastq.gz
+mv SRR23392175_3.fastq.gz heart_donor3_apex_S1_L001_R2_001.fastq.gz
+mv SRR23392175_4.fastq.gz heart_donor3_apex_S1_L001_R3_001.fastq.gz
+mv SRR23392176_1.fastq.gz heart_donor3_apex_S1_L002_I1_001.fastq.gz
+mv SRR23392176_2.fastq.gz heart_donor3_apex_S1_L002_R1_001.fastq.gz
+mv SRR23392176_3.fastq.gz heart_donor3_apex_S1_L002_R2_001.fastq.gz
+mv SRR23392176_4.fastq.gz heart_donor3_apex_S1_L002_R3_001.fastq.gz
+mv SRR23392177_1.fastq.gz heart_donor3_apex_S1_L003_I1_001.fastq.gz
+mv SRR23392177_2.fastq.gz heart_donor3_apex_S1_L003_R1_001.fastq.gz
+mv SRR23392177_3.fastq.gz heart_donor3_apex_S1_L003_R2_001.fastq.gz
+mv SRR23392177_4.fastq.gz heart_donor3_apex_S1_L003_R3_001.fastq.gz
+mv SRR23392212_1.fastq.gz heart_donor3_apex_S1_L004_I1_001.fastq.gz
+mv SRR23392212_2.fastq.gz heart_donor3_apex_S1_L004_R1_001.fastq.gz
+mv SRR23392212_3.fastq.gz heart_donor3_apex_S1_L004_R2_001.fastq.gz
+mv SRR23392212_4.fastq.gz heart_donor3_apex_S1_L004_R3_001.fastq.gz
+cd ../../
+
+
 ## heart_LAA_CF69 ##
 # rename fastq rna
 cd heart_LAA_CF69/fastq_rna/

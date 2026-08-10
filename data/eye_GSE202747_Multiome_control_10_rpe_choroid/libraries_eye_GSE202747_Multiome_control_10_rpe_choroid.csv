@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/eye_GSE202747_Multiome_control_10_rpe_choroid/fastq_rna,eye_GSE202747_Multiome_control_10_rpe_choroid,Gene Expression
+/charonfs/scratch/users/astar/gis/limchr/ENCODE-cellranger/data/eye_GSE202747_Multiome_control_10_rpe_choroid/fastq_atac,eye_GSE202747_Multiome_control_10_rpe_choroid,Chromatin Accessibility
